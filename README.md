@@ -22,9 +22,12 @@ classifier trained on TF-IDF features extracted from message text.
    guesses "ham" would already look 87% accurate while being useless
 
 ## Results
-- Accuracy: [your number]
-- Precision: [your number]
-- Recall: [your number]
+- Accuracy: 0.968609865470852
+- Precision: 1.0
+- Recall: 0.7651006711409396
+- Confusion Matrix:
+ [[966   0]
+ [ 35 114]]
 
 ## What I learned
 - Why splitting data *before* vectorizing matters (avoiding data leakage)
